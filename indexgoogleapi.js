@@ -24,5 +24,5 @@ async function readTextFromImage(imagePath) {
 }
 
 // Run the function
-const imagePath = 'path/to/image.jpg'; // Replace with your image file path
+const imagePath = 'C:\Users\cours\OneDrive\Desktop\Google_VisionAPi\Picture1.png'; // 
 readTextFromImage(imagePath);
