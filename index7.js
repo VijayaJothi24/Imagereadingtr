@@ -1,9 +1,9 @@
-// Import the Google Cloud Vision client library
-const vision = require('@google-cloud/vision');
+// Import the client library
+const vision = require('hgh');
 
 // Create a client
 const client = new vision.ImageAnnotatorClient({
-  keyFilename: 'C:\Users\cours\OneDrive\Desktop\Google_VisionAPi\service-account-key.json'  
+  keyFilename: 'C:\Users\cours\OneDrive\Desktop\imagereading/key.json'  
 });
 
 // Function to read text from an image
@@ -24,5 +24,5 @@ async function readTextFromImage(imagePath) {
 }
 
 // Run the function
-const imagePath = 'C:\Users\cours\OneDrive\Desktop\Google_VisionAPi\Picture1.png'; // 
+const imagePath = 'C:\Users\cours\OneDrive\Desktop\imagereading\Picture1.png'; // 
 readTextFromImage(imagePath);
